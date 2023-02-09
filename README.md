@@ -27,8 +27,8 @@ resource file: https://www.figma.com/file/6RU83PIZiGwUjDzHCR52r0/Untitled?node-i
 
 ### Links
 
-- Solution URL:  https://github.com/aleksandre1303/Four-Card-Responsive  
-- Live Site URL: https://aleksandre1303.github.io/Four-Card-Responsive/
+- Solution URL:  https://github.com/aleksandre1303/review-cards-component  
+- Live Site URL: https://aleksandre1303.github.io/review-cards-component/
 
 
 ## Author
