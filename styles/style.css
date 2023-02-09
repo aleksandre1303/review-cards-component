@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* Colors */
+@import "./variables/colors.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.heading-title {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  color: var(--heading);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 47px;
+}
+
+.card {
+  max-width: 100%;
+  background-color: var(--card-bg);
+  border-radius: 16px;
+  padding: 28px 24px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-0.5em);
+}
+
+.avatar-name-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--card-title);
+}
+
+.card-paragraph {
+  margin: 12px 0 23px;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-title {
+    font-size: 31px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .avatar-name-container {
+    flex-direction: column;
+  }
+}
