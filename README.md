@@ -15,7 +15,7 @@
 
 ### Overview
 
-This is review cards component, Pixel perfect
+This is review cards component, Pixel perfect HTML / CSS
 
 resource file: https://www.figma.com/file/6RU83PIZiGwUjDzHCR52r0/Untitled?node-id=0%3A1&t=3YwUp2UgxSIGG2ou-1
 
@@ -47,8 +47,9 @@ resource file: https://www.figma.com/file/6RU83PIZiGwUjDzHCR52r0/Untitled?node-i
 
 
 ### What I learned
-I learned basic CSS Grid layout, I understood well what is the difference between grid and flexbox 🚀🚀✊
-
+I learned basic CSS Grid layout, I understood well what is the difference between grid and flexbox
+I also learned how to store fonts and colors in a variable and use them, which makes later editing much easier
+🚀🚀✊
 
 
 ## Author
